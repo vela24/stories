@@ -1,0 +1,7 @@
+<h1>Please Sign Up</h1>
+
+<%= form_for(@signup) do |f| %>
+  <%= f.text_field :firstname %>
+  <%= f.text_field :email %>
+  <%= f.submit "Sign Up", :class => "btn" %>
+<% end %>
